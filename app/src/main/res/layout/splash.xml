@@ -27,28 +27,32 @@
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/circle" />
+                app:srcCompat="@drawable/circle"
+                android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="173dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/download"
+                android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="146dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/square___black_simple_svg" />
+                app:srcCompat="@drawable/square___black_simple_svg"
+                android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/triang_noun_001_18172" />
+                app:srcCompat="@drawable/triang_noun_001_18172"
+                android:contentDescription="@string/todo" />
         </LinearLayout>
 
         <TextView
@@ -56,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="157dp"
             android:gravity="center"
-            android:text="Area of Various Shapes"
+            android:text="@string/area_of_various_shapes"
             android:textColor="#090909"
             android:textSize="34sp"
             android:textStyle="bold|italic" />
@@ -66,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="157dp"
             android:gravity="center"
-            android:text="Develped By Awais Ali"
+            android:text="@string/develped_by_awais_ali"
             android:textColor="#090909"
             android:textSize="34sp"
             android:textStyle="bold|italic" />
@@ -75,7 +79,8 @@
             android:id="@+id/imageView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/download__1_" />
+            app:srcCompat="@drawable/download__1_"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

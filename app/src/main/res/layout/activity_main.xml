@@ -17,7 +17,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText">
 
         <TextView
             android:id="@+id/textView"
@@ -35,55 +36,62 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             app:srcCompat="@drawable/triang_noun_001_18172"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/triangle" />
 
         <Button
             android:id="@+id/triangle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/triangle" />
+            android:text="@string/triangle"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/circle" />
+            app:srcCompat="@drawable/circle"
+            android:contentDescription="@string/circle" />
 
         <Button
             android:id="@+id/Circle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/circle" />
+            android:text="@string/circle"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/square___black_simple_svg" />
+            app:srcCompat="@drawable/square___black_simple_svg"
+            android:contentDescription="@string/square"/>
 
         <Button
             android:id="@+id/Square"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/square" />
+            android:text="@string/square"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/download" />
+            app:srcCompat="@drawable/download"
+            android:contentDescription="@string/rectangle"/>
 
         <Button
             android:id="@+id/Rectangle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rectangle" />
+            android:text="@string/rectangle"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="109dp"
-            android:text="   Develped by Awais Ali"
+            android:text="@string/develped_by_awais_ali"
             android:textColor="#131313"
             android:textSize="34sp"
             android:gravity="center"

@@ -24,7 +24,7 @@
             android:layout_height="80dp"
             android:background="#090909"
             android:gravity="center"
-            android:text="Area of Rectangle"
+            android:text="@string/area_of_rectangle"
             android:textColor="#2196F3"
             android:textSize="34sp"
             android:textStyle="bold|italic" />
@@ -33,14 +33,15 @@
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
             android:layout_height="164dp"
-            app:srcCompat="@drawable/download" />
+            app:srcCompat="@drawable/download"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:gravity="center"
-            android:text="Enter Height"
+            android:text="@string/enter_height"
             android:textColor="#0B0A0A"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
@@ -50,19 +51,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="i.e 5"
+            android:gravity="center"
+            android:hint="@string/i_e_5"
             android:inputType="number"
             android:minHeight="48dp"
             android:textSize="20sp"
             android:textStyle="bold|italic"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:gravity="center"
-            android:text="Enter Width"
+            android:text="@string/enter_width"
             android:textColor="#131212"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
@@ -72,31 +75,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="i.e 5"
+            android:gravity="center"
+            android:hint="@string/i_e_5"
             android:inputType="number"
             android:minHeight="48dp"
             android:textSize="20sp"
             android:textStyle="bold|italic"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="82dp"
-            android:text="Calculate" />
+            android:text="@string/calculate" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="79dp"
-            android:text="Clear" />
+            android:text="@string/clear" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="99dp"
             android:gravity="center"
-            android:text="Answer"
+            android:text="@string/answer"
             android:textColor="#100F0F"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
