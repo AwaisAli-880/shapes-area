@@ -50,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="103dp"
             android:ems="10"
+            android:gravity="center"
             android:hint="i.e 5"
             android:inputType="number"
             android:minHeight="48dp"
