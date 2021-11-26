@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">REALWORK</string>
+    <string name="area_calculator">Area Calculator</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Circle</string>
+    <string name="square">Square</string>
+</resources>
